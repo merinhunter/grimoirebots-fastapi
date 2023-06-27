@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "grimoirebots-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["Sergio Merino Hernández <merinhunter94@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.95"
+uvicorn = "^0.21"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
